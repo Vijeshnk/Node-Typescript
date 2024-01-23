@@ -25,7 +25,7 @@ server.listen(8080, () => {
 
 
 
-const MONGO_URL = "mongodb+srv://vijeshnirala:4k3igf0yFAW7OfIe@cluster0.phadzbp.mongodb.net/?retryWrites=true&w=majority"
+const MONGO_URL = "mongodb+srv://<username>:<password>@cluster0.phadzbp.mongodb.net/?retryWrites=true&w=majority"
 
 mongoose.Promise = Promise;
 
